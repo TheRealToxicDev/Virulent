@@ -4,7 +4,7 @@ A Personal/Custom JavaScript Discord API Wrapper.
 # Installation
 Virulent was made with Node v12.16.2 You should preferabaly use this version as well.
 
-Github: ``npm i --save github:TheRealToxicDev/Virulent
+Github: ``npm i --save github:TheRealToxicDev/Virulent``
 
 # Features
 * Client Support
