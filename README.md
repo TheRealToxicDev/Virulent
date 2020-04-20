@@ -22,7 +22,7 @@ Github: ``npm i --save github:TheRealToxicDev/Virulent``
 ```js
 'use strict';
 
-const Discord = require('disclyssia');
+const Discord = require('virulent');
 const client = new Discord.Client();
 
 client.on('ready', async (client) => {
