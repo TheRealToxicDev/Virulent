@@ -1,17 +1,18 @@
 ![](https://i.imgur.com/1gqzxVd.png)
 
-## Table of Contents
+## Virulent Complete Examples
 
-- [Message Embed](#Getting-Started)
-- [Rich Embed (Coming Soon)]()
+- [Getting Started](#start)
+- [Virulent Basics](#basics)
 - []()
 - []()
-- [Useful Links]()
+- [Complete Examples]()
 
-<a name="Getting-Started"></a>
+<a name="start"></a>
 # Getting Started
 
-# 
+<a name="basics"
+# Virulent Basics
 
 # Complete Examples
 [Message Embed](https://github.com/TheRealToxicDev/Virulent/blob/master/docs/Examples/EMBED.mkdn)
