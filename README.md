@@ -1,3 +1,4 @@
+![](https://i.imgur.com/1gqzxVd.png)
 # Virulent
 A Personal/Custom JavaScript Discord API Wrapper.
 
