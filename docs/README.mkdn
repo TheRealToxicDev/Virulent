@@ -9,6 +9,7 @@
 - [Features](#features)
 - [Update Plans](#plans)
 - [Virulent Basics](#basics)
+- [Complete Examples](https://github.com/TheRealToxicDev/Virulent/tree/master/docs/Examples)
 
 
 <a name="about"></a>
