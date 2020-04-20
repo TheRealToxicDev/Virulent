@@ -6,8 +6,10 @@ Virulent is a powerful node.js module that allows you to interact with the Disco
 # Important 
 Virulent was made with `Node v12.16.2` Would be best to use this version as well.
 
-#Installation
-Github: ``npm i --save github:TheRealToxicDev/Virulent``
+# Installation
+> NPM: `Coming Soon`
+
+GitHub: ``npm i --save github:TheRealToxicDev/Virulent``
 
 # Features
 * Client Support
