@@ -1,5 +1,9 @@
 ![](https://i.imgur.com/1gqzxVd.png)
 
+A powerful JavaScript Library that allows you to interact with the Discord API.
+
+> npm install commands coming soon.
+
 # Installation
 Virulent was made with Node v12.16.2 You should preferabaly use this version as well.
 
