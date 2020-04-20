@@ -3,16 +3,3 @@
 ## Complete Examples
 
 - [Message Embed](./EMBED.mkdn)
-- [Virulent Basics](#basics)
-- []()
-- []()
-- [Complete Examples]()
-
-<a name="start"></a>
-# Getting Started
-
-<a name="basics"
-# Virulent Basics
-
-# Complete Examples
-[Message Embed](https://github.com/TheRealToxicDev/Virulent/blob/master/docs/Examples/EMBED.mkdn)
