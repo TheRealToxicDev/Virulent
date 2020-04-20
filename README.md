@@ -1,6 +1,4 @@
 ![](https://i.imgur.com/1gqzxVd.png)
-# Virulent
-A Personal/Custom JavaScript Discord API Wrapper.
 
 # Installation
 Virulent was made with Node v12.16.2 You should preferabaly use this version as well.
