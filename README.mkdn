@@ -5,7 +5,7 @@ A powerful JavaScript Library that allows you to interact with the Discord API.
 > npm install commands coming soon. | Will be available on the [NPMJS](https://www.npmjs.com/) Website
 
 # Installation
-Virulent was made with Node v12.16.2 You should preferabaly use this version as well.
+Virulent was made with `Node v12.16.2` Would be best to use this version as well.
 
 Github: ``npm i --save github:TheRealToxicDev/Virulent``
 
