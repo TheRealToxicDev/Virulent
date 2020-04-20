@@ -2,7 +2,7 @@
 
 A powerful JavaScript Library that allows you to interact with the Discord API.
 
-> npm install commands coming soon.
+> npm install commands coming soon. | Will be available on the [NPMJS](https://www.npmjs.com/) Website
 
 # Installation
 Virulent was made with Node v12.16.2 You should preferabaly use this version as well.
