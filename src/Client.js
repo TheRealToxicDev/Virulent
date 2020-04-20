@@ -49,7 +49,7 @@ module.exports = class Client extends EventEmitter {
         return new Promise((resolve, reject) => {
             try {
                 this.presence = data;
-                this.WSSend(Payloads.PRESENCE(data));
+                this.ws.send(Payloads.PRESENCE(data));
             } catch (err) {
                 reject(err);
             }
