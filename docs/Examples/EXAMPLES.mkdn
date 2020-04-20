@@ -1,2 +1,17 @@
-# Bot Examples
+![](https://i.imgur.com/1gqzxVd.png)
+
+## Table of Contents
+
+- [Message Embed](#help)
+- [Rich Embed (Coming Soon)]()
+- []()
+- []()
+- [Useful Links]()
+
+
+# Getting Started
+
+# 
+
+# Complete Examples
 [Message Embed](https://github.com/TheRealToxicDev/Virulent/blob/master/docs/Examples/EMBED.mkdn)
