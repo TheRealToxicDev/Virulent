@@ -1,2 +1,2 @@
 # Virulent Bot Examples
-![MessageEmbed](https://github.com/TheRealToxicDev/Virulent/blob/master/docs/Examples/EMBED.mkdn)
+[Message Embed](https://github.com/TheRealToxicDev/Virulent/blob/master/docs/Examples/EMBED.mkdn)
