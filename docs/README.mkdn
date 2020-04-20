@@ -1,9 +1,7 @@
 ![](https://i.imgur.com/1gqzxVd.png)
 
 # About
-Virulent is a Basic Javascript Discord API Wrapper Library
-Designed to provide Developers with all the same Functions and Features
-With a cleaner yet somewhat sophisticated layout.
+Virulent is a powerful node.js module that allows you to interact with the Discord API. Unlike other JavaScript Discord libraries Virulent takes a object-oriented yet slightly more sophisticated approach making your bot's code significantly tidier and easier to comprehend.
 
 # Important 
 Virulent was made with `Node v12.16.2` Would be best to use this version as well.
