@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-- [Message Embed](#help)
+- [Message Embed](#Getting-Started)
 - [Rich Embed (Coming Soon)]()
 - []()
 - []()
 - [Useful Links]()
 
-
+<a name="Getting-Started"></a>
 # Getting Started
 
 # 
