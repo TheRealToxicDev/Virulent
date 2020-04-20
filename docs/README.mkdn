@@ -1,9 +1,10 @@
 ![](https://i.imgur.com/1gqzxVd.png)
 
-# Installation
-Virulent was made with `Node v12.16.2` Would be best to use this version as well.
+# About
+> Virulent was made with `Node v12.16.2` Would be best to use this version as well.
 
-Github: ``npm i --save github:TheRealToxicDev/Virulent``
+#Installation
+> Github: ``npm i --save github:TheRealToxicDev/Virulent``
 
 # Features
 * Client Support
@@ -18,7 +19,7 @@ Github: ``npm i --save github:TheRealToxicDev/Virulent``
 * Full Server Support
 * Full User Support
 
-# Virulent Example
+# Virulent Basics
 ```js
 'use strict';
 
