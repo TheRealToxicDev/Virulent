@@ -1,29 +1,76 @@
 ![](https://i.imgur.com/1gqzxVd.png)
 
-A powerful JavaScript Library that allows you to interact with the Discord API.
+[![Build Passing](https://img.shields.io/badge/build-Passing%20-green.svg?style=flat)](https://github.com/TheRealToxicDev/Virulent) 
+[![Node](https://img.shields.io/badge/node-v12.16.2%20-blue.svg?style=flat)](https://nodejs.org/en/) 
+[![Version](https://img.shields.io/badge/virulent-v0.0.1-yellowgreen.svg)](https://github.com/TheRealToxicDev/Virulent)
 
-> npm install commands coming soon. | Will be available on the [NPMJS](https://www.npmjs.com/) Website
+## Installation
+Install Virulent using [`github`](https://www.github.com):
 
-# Installation
-Virulent was made with `Node v12.16.2` Would be best to use this version as well.
+```bash
+npm i --save github:TheRealToxicDev/Virulent
+```
 
-Github: ``npm i --save github:TheRealToxicDev/Virulent``
+Aditionally you can Install the Virulent Module via your Package.json
+by adding the following line under your List of Dependencies.
 
-# Features
-* Client Support
-* Message Support
-* Basic Channel Support
-* Basic Server Support
-* Basic User Support
+```bash
+"virulent": "https://github.com/TheRealToxicDev/Virulent"
+```
 
-# To-Do/Planned Updates
-* Voice Support
-* Full Channel Support
-* Full Server Support
-* Full User Support
+Example Package.json
 
-# Virulent Example
-```js
+```bash
+{
+    "name": "virulent",
+    "version": "1.0.0",
+    "description": "Official Sample Bot for the Virulent Discord Library.",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js"
+    },
+    "engines": {
+     "node": "12.16.2"
+  },
+    "keywords": [
+      "discord",
+      "api",
+      "client",
+      "javascript"
+    ],
+    "author": "Toxic Dev",
+    "license": "Apache-2.0",
+    "dependencies": {
+     "virulent": "https://github.com/TheRealToxicDev/Virulent"
+    }
+  }
+  ```
+
+Or [`npm`](https://www.npmjs.com/):
+
+```bash
+Coming Soon (April/22/2020)
+```
+
+## Usage
+Import the required components. For example the Virulent Module requirement looks like this:
+```jsx harmony
+const Discord = require ('virulent');
+```
+Then use it in your bots ``index.js`` as a string or callback. 
+
+```jsx harmony
+'use strict';
+
+const Discord = require('virulent');
+const client = new Discord.Client();
+
+// Insert Ready or Message event Here.
+
+client.login(''); // put your bot token here
+```
+Usage Ping Example
+```jsx harmony
 'use strict';
 
 const Discord = require('virulent');
@@ -45,3 +92,4 @@ client.on('message', (message) => {
 
 client.login(''); // put your bot token here
 ```
+See the full list of components and their parameters in the  [documentation](https://tigerspack.awb.pw/docs/components/alert).
