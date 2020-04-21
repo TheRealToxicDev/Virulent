@@ -92,4 +92,7 @@ client.on('message', (message) => {
 
 client.login(''); // put your bot token here
 ```
+
+# Support
 If you need help you can join the [Virulent Support Server](https://discord.gg/aKqSx9G)
+Or check out our [Documentation](https://virulentjs.site)
