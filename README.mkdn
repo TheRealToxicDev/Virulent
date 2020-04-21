@@ -92,4 +92,4 @@ client.on('message', (message) => {
 
 client.login(''); // put your bot token here
 ```
-See the full list of components and their parameters in the  [documentation](https://tigerspack.awb.pw/docs/components/alert).
+If you need help you can join the [Virulent Support Server](https://discord.gg/aKqSx9G)
