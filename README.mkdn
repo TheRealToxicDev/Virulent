@@ -49,7 +49,7 @@ Example Package.json
 Or [`npm`](https://www.npmjs.com/):
 
 ```bash
-Coming Soon (April/22/2020)
+Coming Soon
 ```
 
 ## Usage
