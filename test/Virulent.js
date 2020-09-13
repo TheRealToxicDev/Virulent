@@ -17,4 +17,4 @@ client.on('message', (message) => {
     }
 });
 
-client.login(''); // put your bot token here
+client.login('SomeSecureToken'); // put your bot token here
