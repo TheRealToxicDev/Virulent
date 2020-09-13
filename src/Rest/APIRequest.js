@@ -29,5 +29,5 @@ module.exports = class APIRequest {
             .then((response) => resolve(response.data))
             .catch(reject);
         });
-    }  
+    }
 };
