@@ -51,7 +51,7 @@ Example Package.json
 Or [`npm`](https://www.npmjs.com/):
 
 ```bash
-Coming Soon
+Coming Soon (Nowhere bear ready for that)
 ```
 
 ## Usage
