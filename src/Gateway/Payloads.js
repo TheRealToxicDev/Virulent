@@ -1,3 +1,4 @@
+  
 'use strict';
 
 const Constants = require('../Constants');
@@ -9,7 +10,6 @@ module.exports.HEARTBEAT = (sequence) => {
         d: sequence
     };
 };
-
 module.exports.IDENTIFY = (data) => {
     return {
         op: Constants.GATEWAY_OP_CODES.IDENTIFY,
@@ -23,7 +23,6 @@ module.exports.IDENTIFY = (data) => {
         }
     };
 };
-
 module.exports.PRESENCE = (data) => {
     return {
         op: Constants.GATEWAY_OP_CODES.PRESENCE_UPDATE,
@@ -39,7 +38,6 @@ module.exports.PRESENCE = (data) => {
         }
     };
 };
-
 module.exports.RESUME = (data) => {
     return {
         op: Constants.GATEWAY_OP_CODES.RESUME,
