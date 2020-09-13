@@ -23,7 +23,7 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Title of the Embed
+     * Sets the title of the embed.
      * @param {string} title The title
      * @returns {EmbedBuilder} This Embed
      */
@@ -35,7 +35,7 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Description of the Embed
+     * Sets the description of the embed.
      * @param {string} description The description
      * @returns {EmbedBuilder} This Embed
      */
@@ -47,8 +47,8 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Image of the Embed
-     * @param {string} imageURL The URL of the Image
+     * Sets the image of the embed.
+     * @param {string} imageURL The URL of the image
      * @returns {EmbedBuilder} This Embed
      */
     newImage(imageURL) {
@@ -60,8 +60,8 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Thumbnail of the Embed
-     * @param {string} imageURL The URL of the Embed Thumbnail
+     * Sets the thumbnail of the embed.
+     * @param {string} imageURL The URL of the thumbnail
      * @returns {EmbedBuilder} This Embed
      */
     newThumbnail(imageURL) {
@@ -73,9 +73,9 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Footer of the Embed
-     * @param {string} text The text of the Embed Footer
-     * @param {string} iconURL The Icon URL of the Embed Footer
+     * Sets the footer of the embed.
+     * @param {string} text The text of the footer
+     * @param {string} iconURL The icon URL of the footer
      * @returns {EmbedBuilder} This Embed
      */
     newFooter(text, iconURL) {
@@ -90,7 +90,7 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Timestamp of the Embed
+     * Sets the timestamp of the embed.
      * @returns {EmbedBuilder} This Embed
      */
     newTimestamp() {
@@ -99,9 +99,9 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Author of the Embed.
-     * @param {string} name The name of the Author
-     * @param {string} iconURL The Image/Icon URL of the Author
+     * Sets the author of the embed.
+     * @param {string} name The name of the author
+     * @param {string} iconURL The icon URL of the author
      * @returns {EmbedBuilder} This Embed
      */
     newAuthor(name, iconURL) {
@@ -116,8 +116,8 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Sets the Color of the Emebed.
-     * @param {ColorResolvable} color The color of the Embed
+     * Sets the color of the embed.
+     * @param {ColorResolvable} color The color of the embed
      * @returns {EmbedBuilder} This Embed
      */
     newColor(color) {
@@ -127,11 +127,11 @@ module.exports = class EmbedBuilder {
     }
 
     /**
-     * Adds a Field to the Embed.
-     * @param {string} name The name of the Embed Field.
-     * @param {string} value The value of the Embed Field.
-     * @param {boolean} [inline=false] Set the Field to display inline.
-     * @returns {EmbedBuilder} This Embed.
+     * Adds a field to the embed.
+     * @param {string} name The name of the field
+     * @param {string} value The value of the field
+     * @param {boolean} [inline=false] Set the field to display inline
+     * @returns {EmbedBuilder} This Embed
      */
     newField(name, value, inline = false) {
         if (!name) { throw new Error('[Embed Error] No Field Name was provided, Please provide a proper Field Name string.'); }
