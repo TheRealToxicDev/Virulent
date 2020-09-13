@@ -61,7 +61,7 @@ module.exports = class WebSocket extends EventEmitter {
         const message = this._decompressWSMessage(data, flags);
         switch (message.d) {
             case Constants.GATEWAY_OP_CODES.DISPATCH:
-                this._heartbeat = message.d.s;
+                this._heartbeat = message.t;
                 break;
             case Constants.GATEWAY_OP_CODES.HEARTBEAT:
                 this.WSSend(Payloads.HEARTBEAT(this._heartbeat));
