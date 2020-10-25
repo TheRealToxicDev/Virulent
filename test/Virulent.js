@@ -14,7 +14,11 @@ client.on('message', (message) => {
         client.sendMessage(message.channel_id, {
             content: 'Pong!'
         }).catch(console.error);
+        client.getChannel("761435208750596111").then((channel) => {
+            client.connectVoice(channel.id, channel.guild_id);
+        });
+        
     }
 });
 
-client.login('SomeSecureToken'); // put your bot token here
+client.login('NzY5MTAwODQ4ODYwMjMzNzI4.X5KG-w.6EG60EmU0S-ORSFFNhAmMOP8WJ0'); // put your bot token here

@@ -48,3 +48,16 @@ module.exports.RESUME = (data) => {
         }
     }
 };
+
+
+module.exports.CONNECT_VOICE = (data) => {
+    return {
+        op: Constants.GATEWAY_OP_CODES.VOICE_STATE_UPDATE,
+        d: {
+            server_id: data.guild_id,
+            user_id: data.user_id,
+            session_id: data.sessionId,
+            token: data.token
+        }
+    }
+}

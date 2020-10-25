@@ -5,6 +5,7 @@ const APIRequest = require('./Rest/APIRequest');
 
 const { EventEmitter } = require('events');
 const FormData = require('form-data');
+const { constants } = require('buffer');
 
 module.exports = class Client extends EventEmitter {
     /**
@@ -158,4 +159,34 @@ module.exports = class Client extends EventEmitter {
           });
       });
    }
+
+   /**
+    * Connects to a voice channel using the channel id, returns a dispacher
+    * 
+    * @param channelId
+    * @returns {Promise<Object>} returns the dispacher see Client#dispatcher()
+    */
+   connectVoice(channelId, guild_id){
+    return new Promise((resolve, reject) => {
+        if(!this.token){
+            reject(new Error("[Promise Rejection] Incorrect Login Details were provided, Please check your token for Client#login()"))
+        }
+        if(!channelId){
+            reject(new Error('No Channel ID provided, Channel ID is required to use Client#connectVoice()'));
+        }
+
+        
+        let data = {
+            channel_id: channelId,
+            guild_id: guild_id
+        };
+
+        return this._APIRequest.make('post', Endpoints.GATEWAY, {
+            data: Payloads.CONNECT_VOICE(data),
+            headers: Object.assign({ 'Authorization': 'Bot ' + this.token, })
+        });
+    });
+
+   }
+
 };
