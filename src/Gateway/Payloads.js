@@ -1,6 +1,7 @@
   
 'use strict';
 
+const { constants } = require('buffer');
 const Constants = require('../Constants');
 const MODULE_NAME = require('../../package').name;
 
@@ -50,13 +51,25 @@ module.exports.RESUME = (data) => {
 };
 
 
-module.exports.CONNECT_VOICE = (data) => {
+module.exports.UPDATE_VOICE_DATA = (data) => {
     return {
         op: Constants.GATEWAY_OP_CODES.VOICE_STATE_UPDATE,
         d: {
-            server_id: data.guild_id,
+            guild_id: data.guild_id,
+            channel_id: data.channel_id,
+            self_mute: false,
+            self_deaf: false
+        }
+    }
+}
+
+module.exports.VOICE_IDENTIFY = (data) => {
+    return {
+        op: Constants.GATEWAY_OP_CODES.IDENTIFY,
+        d: {
+            server_id: data.server_id,
             user_id: data.user_id,
-            session_id: data.sessionId,
+            session_id: data.session_id,
             token: data.token
         }
     }

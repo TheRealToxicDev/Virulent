@@ -87,6 +87,7 @@ module.exports = class WebSocket extends EventEmitter {
                 this._WSConnect(payload);
                 break;
         }
+        
         switch (message.t) {
             case "READY":
                 if (!this.is_ready) {
@@ -98,6 +99,14 @@ module.exports = class WebSocket extends EventEmitter {
             case "MESSAGE_CREATE":
                 this.emit('message', message.d);
                 break;
+            case "VOICE_STATE_UPDATE":
+                console.log("voice sate update");
+                this.emit('voice_update', message.d);
+                break;
+            case "VOICE_SERVER_UPDATE":
+                this.emit('dispatcher', message.d);
+                break;
+            
         }
     }
 

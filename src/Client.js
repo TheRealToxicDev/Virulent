@@ -2,6 +2,7 @@ const Endpoints = require('./Rest/Endpoints');
 const WebSocket = require('./Gateway/WebSocket');
 const Payloads = require('./Gateway/Payloads');
 const APIRequest = require('./Rest/APIRequest');
+const Dispatcher = require("./Dispathcer");
 
 const { EventEmitter } = require('events');
 const FormData = require('form-data');
@@ -23,6 +24,7 @@ module.exports = class Client extends EventEmitter {
             this.emit('ready', this);
         });
         this.ws.on('message', (message) => this.emit('message', message));
+        this.ws.on('voice_update', (info) => { this.dispatcher =  new Dispatcher(info); this.emit('voice_update', this.dispatcher)});
     }
 
     /**
@@ -181,10 +183,7 @@ module.exports = class Client extends EventEmitter {
             guild_id: guild_id
         };
 
-        return this._APIRequest.make('post', Endpoints.GATEWAY, {
-            data: Payloads.CONNECT_VOICE(data),
-            headers: Object.assign({ 'Authorization': 'Bot ' + this.token, })
-        });
+        return this.ws.WSSend(Payloads.UPDATE_VOICE_DATA(data));
     });
 
    }
