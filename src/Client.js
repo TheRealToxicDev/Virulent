@@ -25,6 +25,13 @@ module.exports = class Client extends EventEmitter {
         });
         this.ws.on('message', (message) => this.emit('message', message));
         this.ws.on('voice_update', (info) => { this.dispatcher =  new Dispatcher(info); this.emit('voice_update', this.dispatcher)});
+        this.ws.on('dispatcher', (info) => { 
+            if(this.dispatcher) {
+                this.dispatcher.endpoint = info.endpoint;
+                this.dispatcher.playtoken = info.token;
+            } 
+            this.emit('dispathcer', this.dispatcher);
+        });
     }
 
     /**
