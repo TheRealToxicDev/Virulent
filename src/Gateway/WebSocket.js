@@ -87,7 +87,7 @@ module.exports = class WebSocket extends EventEmitter {
                 this._WSConnect(payload);
                 break;
         }
-        
+        console.log(message.t);
         switch (message.t) {
             case "READY":
                 if (!this.is_ready) {

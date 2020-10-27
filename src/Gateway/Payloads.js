@@ -57,8 +57,8 @@ module.exports.UPDATE_VOICE_DATA = (data) => {
         d: {
             guild_id: data.guild_id,
             channel_id: data.channel_id,
-            self_mute: false,
-            self_deaf: false
+            self_mute: data.mute || false,
+            self_deaf: data.deaf || false
         }
     }
 }
