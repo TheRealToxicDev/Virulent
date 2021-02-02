@@ -2,4 +2,4 @@
 
 ## Complete Examples
 
-- [Message Embed](./EMBED.mkdn)
+- [Message Embed](/examples/embeds)
