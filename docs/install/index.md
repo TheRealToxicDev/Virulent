@@ -3,7 +3,7 @@
 Instructions on how to download and install the basics of **Virulent.js**.
 
 ## Download
-There are some ways to download **Virulent**:
+There are a few ways to install **Virulent**:
 
 ### Using *Git*
 ```bash
