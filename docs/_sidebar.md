@@ -1,7 +1,7 @@
 - Version: 1.0.0
 
 - About
-    - [BESX](/about/index)
+    - [Intro](/about/index)
     - [F.A.Q](/about/faq)
 - EXAMPLES
     - [Index](/Examples/index)  
