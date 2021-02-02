@@ -1,8 +1,4 @@
-- <details><summary>Versions</summary>
-  <p>
-    
-  </p>
-</details>
+- Version: v0.6.0
 
 - About
     - [Intro](/about/index)
