@@ -1,4 +1,4 @@
-# Example usage
+# Ping
 ```js
 'use strict';
 
