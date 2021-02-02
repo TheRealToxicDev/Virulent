@@ -12,3 +12,4 @@
 
 - [Github](https://github.com/TheRealToxicDev/Virulent)
 - [Report an Issue](https://github.com/TheRealToxicDev/Virulent/issues)
+- [Join our Discord](https://discord.gg/5GmqbhzMpc)
