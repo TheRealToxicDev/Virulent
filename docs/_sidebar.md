@@ -3,8 +3,8 @@
 - About
     - [BESX](/about/index)
     - [F.A.Q](/about/faq)
-- BESX
-    - [Index](/besx/index)  
+- EXAMPLES
+    - [Index](/Examples/index)  
     - [Installation](/besx/installation)
     - [Commons](#)
         - [User](/besx/commons/user)
