@@ -4,7 +4,7 @@
     - [Intro](/about/index)
     - [F.A.Q's](/about/faq)
 - Installation
-    - [Getting Started](/install/index)
+    - [Install](/install/index)
 - Examples
     - [Overview](/examples/index)
     - [Message Embed](/examples/MessageEmbed/index)
