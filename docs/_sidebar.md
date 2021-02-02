@@ -6,7 +6,7 @@
 - Installation
     - [Getting Started](/install/index)
 - Examples
-    - [Embeds](/Examples/index)
+    - [Embeds](/examples/index)
 
 
 - [Github](https://github.com/TheRealToxicDev/Virulent)
