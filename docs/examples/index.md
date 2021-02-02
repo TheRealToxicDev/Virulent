@@ -2,4 +2,4 @@
 
 ## Complete Examples
 
-- [Message Embed](/examples/embeds)
+- [Message Embed](/examples/MessageEmbed/index)
