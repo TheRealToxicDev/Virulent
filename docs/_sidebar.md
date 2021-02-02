@@ -2,9 +2,9 @@
 
 - About
     - [Intro](/about/index)
-    - [F.A.Q](/about/faq)
+    - [F.A.Q's](/about/faq)
 - EXAMPLES
-    - [Index](/Examples/index)  
+    - [Examples](/Examples/index)  
     - [Installation](/besx/installation)
     - [Commons](#)
         - [User](/besx/commons/user)
