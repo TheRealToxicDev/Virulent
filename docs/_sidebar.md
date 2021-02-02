@@ -1,4 +1,6 @@
-- Current Version: 0.8.0
+- Versions:
+    - Current: v0.8.0
+    - Stable: v0.8.0
 
 - About
     - [Intro](/about/index)
@@ -10,7 +12,7 @@
     - [Message Embed](/examples/MessageEmbed/index)
     - [Ping](/examples/Ping/index)
 
-
-- [Github](https://github.com/TheRealToxicDev/Virulent)
-- [Report an Issue](https://github.com/TheRealToxicDev/Virulent/issues)
-- [Join our Discord](https://discord.gg/5GmqbhzMpc)
+- Community
+    - [Github](https://github.com/TheRealToxicDev/Virulent)
+    - [Report an Issue](https://github.com/TheRealToxicDev/Virulent/issues)
+    - [Join our Discord](https://discord.gg/5GmqbhzMpc)
