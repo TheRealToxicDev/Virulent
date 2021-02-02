@@ -8,6 +8,7 @@
 - Examples
     - [Overview](/examples/index)
     - [Message Embed](/examples/MessageEmbed/index)
+    - [Ping](/examples/Ping/index)
 
 
 - [Github](https://github.com/TheRealToxicDev/Virulent)
