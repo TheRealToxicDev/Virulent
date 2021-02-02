@@ -1,3 +1,5 @@
+const package = require('../../package.json');
+
 - Current Version: 1.0.0
 
 - <details><summary>Versions</summary>
