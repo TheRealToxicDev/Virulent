@@ -1,8 +1,4 @@
-import package from '../../package.json'
-
-- Current Version: 1.0.0
-
-- <details><summary>{{package.version}}</summary>
+- <details><summary>Versions</summary>
   <p>
     
   </p>
