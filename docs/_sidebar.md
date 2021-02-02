@@ -1,4 +1,4 @@
-- Version: v0.6.0
+- Current Version: 0.8.0
 
 - About
     - [Intro](/about/index)
