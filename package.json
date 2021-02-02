@@ -1,6 +1,6 @@
 {
   "name": "@TheRealToxicDev/virulent",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A Custom Javascript Discord Wrapper library",
   "main": "Virulent.js",
   "scripts": {
