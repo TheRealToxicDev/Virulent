@@ -1,28 +1,28 @@
 {
-    "name": "virulent",
-    "version": "1.0.0",
-    "description": "A Custom Javascript Discord Wrapper library",
-    "main": "Virulent.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
+  "name": "virulent",
+  "version": "1.1.0",
+  "description": "A Custom Javascript Discord Wrapper library",
+  "main": "Virulent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheRealToxicDev/Virulent.git"
   },
-    "keywords": [
-      "discord",
-      "api",
-      "client",
-      "javascript"
-    ],
-    "author": "Toxic Dev",
-    "license": "Apache-2.0",
-    "dependencies": {
-      "axios": "^0.19.2",
-      "events": "^3.1.0",
-      "form-data": "^3.0.0",
-      "ws": "^7.2.3",
-      "zlib-sync": "^0.1.6"
-    }
+  "keywords": [
+    "discord",
+    "api",
+    "client",
+    "javascript"
+  ],
+  "author": "Toxic Dev",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "events": "^3.1.0",
+    "form-data": "^3.0.0",
+    "ws": "^7.2.3",
+    "zlib-sync": "^0.1.6"
   }
+}
