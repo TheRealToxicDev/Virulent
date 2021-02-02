@@ -2,7 +2,7 @@
 
 # Virulent
 
-> Virulent is a powerful node.js module that allows you to interact with the Discord API. Unlike other JavaScript Discord libraries Virulent takes a object-oriented yet slightly more sophisticated approach making your bot's code significantly tidier and easier to comprehend. 
+> A powerful Node Module that allows you to interact with the Discord API. 
 
 [GitHub](https://github.com/TheRealToxicDev/Virulent)
-[Get Started](#besx)
+[Get Started](#about)
