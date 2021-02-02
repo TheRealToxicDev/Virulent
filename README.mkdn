@@ -2,7 +2,7 @@
 
 [![Build Passing](https://img.shields.io/badge/build-Passing%20-green.svg?style=flat)](https://github.com/TheRealToxicDev/Virulent) 
 [![Node](https://img.shields.io/badge/node-v12.16.2%20-blue.svg?style=flat)](https://nodejs.org/en/) 
-[![Version](https://img.shields.io/badge/virulent-v0.0.1-yellowgreen.svg)](https://github.com/TheRealToxicDev/Virulent)
+[![Version](https://img.shields.io/badge/virulent-v0.1.0-yellowgreen.svg)](https://github.com/TheRealToxicDev/Virulent)
 
 Virulent is a powerful node.js module that allows you to interact with the Discord API. Unlike other JavaScript Discord libraries Virulent takes a object-oriented yet slightly more sophisticated approach making your bot's code significantly tidier and easier to comprehend.
 
